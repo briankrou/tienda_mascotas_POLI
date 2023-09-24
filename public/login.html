@@ -17,13 +17,13 @@
     <div class="contenedor">
         <div class="logo_busqueda">
             <div class="logo">
-              <img src="../src/view/img/logo.png" alt="Logo Pet">
+              <img src="./src/view/img/logo.png" alt="Logo Pet">
             </div>
           
             <div class="menu">
               <button class="btn_login btn btn_3" type="submit">Login</button>
               <button id="btnMenu" class="btn_menu btn" type="submit">
-                <img src="../src/view/img/menu_icon.png" alt="">
+                <img src="./src/view/img/menu_icon.png" alt="">
               </button>
             </div>
           
@@ -31,7 +31,7 @@
               <form action="">
                 <input type="text" alt="busca producto" placeholder="¿Qué deseas buscar?">
                 <button type="submit">
-                  <img src="../src/view/img/simbolo-de-la-interfaz-de-busqueda.png" alt="">
+                  <img src="./src/view/img/simbolo-de-la-interfaz-de-busqueda.png" alt="">
                 </button>
               </form>
             </div>
@@ -51,7 +51,22 @@
     </div>
 </nav>
 <body>
-
+    <section class="contenedor">
+        <form action="">
+            <fieldset>
+                <figcaption><h5>Iniciar Sesisón</h5></figcaption>
+                <div>
+                    <label for="correo">Correo electronico</label>
+                    <input id="correo" type="text" placeholder="Escriba su correo electronico">    
+                </div>
+                <div>
+                    <label for="contrasena">Contraseña</label>
+                    <input id="contrasena" type="password" placeholder="Escriba su contraseña">
+                </div>
+                <p><a href="./nuevoUsuario.html">Registrarme</a></p>
+            </fieldset>
+        </form>
+    </section>
 
 </body>
 <footer>
