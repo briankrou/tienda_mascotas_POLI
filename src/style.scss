@@ -1,0 +1,15 @@
+
+@import './bootstrap';
+@import './view/sass/tools/tools';
+@import './view/sass/settings/sttings';
+@import './view/sass/generic/generic';
+@import './view/sass/elements/elements';
+
+@import './view/sass/keyframe/keyframe';
+@import './view/sass/objets/objets';
+@import './view/sass/components/components';
+@import './view/sass/utlities/utilities';
+
+body{
+    background-color: #f2e9e6;
+}
