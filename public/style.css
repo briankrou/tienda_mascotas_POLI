@@ -17028,34 +17028,76 @@ template {
     color: #e4b236;
     font-weight: 800; }
 
-.formulario_login, .formulario_resgistrar {
-  width: 350px;
-  margin: 6rem auto; }
-  .formulario_login fieldset, .formulario_resgistrar fieldset {
+.formulario_login,
+.formulario_resgistrar,
+.formulario_nuevoProducto {
+  max-width: 500px;
+  margin: 6rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .formulario_login fieldset,
+  .formulario_resgistrar fieldset,
+  .formulario_nuevoProducto fieldset {
     display: flex;
     flex-direction: column;
     gap: 1rem; }
-    .formulario_login fieldset h5, .formulario_login fieldset .h5, .formulario_resgistrar fieldset h5, .formulario_resgistrar fieldset .h5 {
+    .formulario_login fieldset h5, .formulario_login fieldset .h5,
+    .formulario_resgistrar fieldset h5,
+    .formulario_resgistrar fieldset .h5,
+    .formulario_nuevoProducto fieldset h5,
+    .formulario_nuevoProducto fieldset .h5 {
       text-align: center;
       font-weight: 700;
       color: #3d2821; }
-    .formulario_login fieldset div, .formulario_resgistrar fieldset div {
+    .formulario_login fieldset div,
+    .formulario_resgistrar fieldset div,
+    .formulario_nuevoProducto fieldset div {
       display: flex;
       flex-direction: column;
       background-color: white;
       padding: 10px 5px; }
-      .formulario_login fieldset div label, .formulario_resgistrar fieldset div label {
+      .formulario_login fieldset div label,
+      .formulario_resgistrar fieldset div label,
+      .formulario_nuevoProducto fieldset div label {
         color: #3d2821; }
-      .formulario_login fieldset div input, .formulario_resgistrar fieldset div input {
+      .formulario_login fieldset div input,
+      .formulario_resgistrar fieldset div input,
+      .formulario_nuevoProducto fieldset div input {
         border: none;
         padding: 5px; }
-        .formulario_login fieldset div input:focus, .formulario_resgistrar fieldset div input:focus {
+        .formulario_login fieldset div input:focus,
+        .formulario_resgistrar fieldset div input:focus,
+        .formulario_nuevoProducto fieldset div input:focus {
           outline: none; }
-    .formulario_login fieldset p, .formulario_resgistrar fieldset p {
+      .formulario_login fieldset div select,
+      .formulario_resgistrar fieldset div select,
+      .formulario_nuevoProducto fieldset div select {
+        border: none; }
+        .formulario_login fieldset div select:focus,
+        .formulario_resgistrar fieldset div select:focus,
+        .formulario_nuevoProducto fieldset div select:focus {
+          outline: none; }
+    .formulario_login fieldset p,
+    .formulario_resgistrar fieldset p,
+    .formulario_nuevoProducto fieldset p {
       text-align: right; }
-      .formulario_login fieldset p a, .formulario_resgistrar fieldset p a {
+      .formulario_login fieldset p a,
+      .formulario_resgistrar fieldset p a,
+      .formulario_nuevoProducto fieldset p a {
         color: #3d2821;
         font-size: 18px; }
+    .formulario_login fieldset textarea,
+    .formulario_resgistrar fieldset textarea,
+    .formulario_nuevoProducto fieldset textarea {
+      border: none;
+      padding: 5px;
+      resize: none; }
+  .formulario_login input[type='submit'],
+  .formulario_resgistrar input[type='submit'],
+  .formulario_nuevoProducto input[type='submit'] {
+    width: 90%;
+    margin: auto; }
 
 .formulario_login {
   display: flex;

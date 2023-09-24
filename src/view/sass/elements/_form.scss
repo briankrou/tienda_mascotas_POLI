@@ -1,6 +1,11 @@
-.formulario_login,.formulario_resgistrar{
-    width: 350px;
+.formulario_login,
+.formulario_resgistrar,
+.formulario_nuevoProducto{
+    max-width: 500px;
     margin: 6rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     fieldset{
         h5{
@@ -26,6 +31,13 @@
                     outline: none;
                 }
             }
+            select{
+                border: none;
+                &:focus{
+                    outline: none;
+                }
+            }
+            
         }
         p{
             text-align: right;
@@ -34,6 +46,17 @@
                 font-size: 18px;
             }
         }
+        textarea{
+            border: none;
+            padding: 5px;
+            resize: none;
+        }
+    }
+
+    input[type='submit']{
+        width: 90%;
+        margin: auto;
+        
     }
 
 }
