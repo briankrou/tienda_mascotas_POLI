@@ -17028,6 +17028,35 @@ template {
     color: #e4b236;
     font-weight: 800; }
 
+.formulario_login {
+  width: 350px;
+  margin: 6rem auto; }
+  .formulario_login fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; }
+    .formulario_login fieldset h5, .formulario_login fieldset .h5 {
+      text-align: center;
+      font-weight: 700;
+      color: #3d2821; }
+    .formulario_login fieldset div {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      padding: 10px 5px; }
+      .formulario_login fieldset div label {
+        color: #3d2821; }
+      .formulario_login fieldset div input {
+        border: none;
+        padding: 5px; }
+        .formulario_login fieldset div input:focus {
+          outline: none; }
+    .formulario_login fieldset p {
+      text-align: right; }
+      .formulario_login fieldset p a {
+        color: #3d2821;
+        font-size: 18px; }
+
 .barra_navegacion {
   margin: 1rem 0; }
   .barra_navegacion .contenedor_menu {
