@@ -21,7 +21,7 @@
             </div>
           
             <div class="menu">
-              <button class="btn_login btn btn_3" type="submit">Login</button>
+              <a href="./login.html" class="btn_login btn btn_3" type="submit">Login</a>
               <button id="btnMenu" class="btn_menu btn" type="submit">
                 <img src="./src/view/img/menu_icon.png" alt="">
               </button>
@@ -29,9 +29,9 @@
           
             <div class="search">
               <form action="">
-                <input type="text" alt="busca producto" placeholder="¿Qué deseas buscar?">
+                <input type="text" alt="busca producto" placeholder="¿Qué deseas buscar?" alt="escriba aqui lo que desea buscar" >
                 <button type="submit">
-                  <img src="../src/view/img/simbolo-de-la-interfaz-de-busqueda.png" alt="">
+                  <img src="../src/view/img/simbolo-de-la-interfaz-de-busqueda.png" alt="boton buscar">
                 </button>
               </form>
             </div>
@@ -40,19 +40,19 @@
 
         <div id="contenedorMenu" class="contenedor_menu">
             <ul class="menu">
-                <li><a class="" href="./index.html">Inicio</a></li>
-                <li><a href="#">Perros</a></li>
-                <li><a href="#">Gatos</a></li>
-                <li><a href="#">Peces</a></li>
-                <li><a href="#">Roedores</a></li>
-                <li><a href="#">Aves</a></li>
+                <li><a class="" href="../index.html">Inicio</a></li>
+                <li><a href="./perros.html">Perros</a></li>
+                <li><a href="./gatos.html">Gatos</a></li>
+                <li><a href="./peces.html">Peces</a></li>
+                <li><a href="./roedores.html">Roedores</a></li>
+                <li><a href="./aves.html">Aves</a></li>
             </ul>
         </div>
     </div>
 </nav>
 <body>
     <section class="contenedor">
-        <form action="">
+        <form class="formulario_resgistrar" action="">
             <fieldset>
                 <figcaption><h5>Nuevo Usuario</h5></figcaption>
                 <div>
@@ -75,6 +75,9 @@
                     <label for="contrasena">Confirmar contraseña</label>
                     <input id="contrasena" type="password" placeholder="*****">
                 </div>
+             
+                    <button class="btn btn_1">Registar</button>
+               
           </fieldset>
         </form>
     </section>

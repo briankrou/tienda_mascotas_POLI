@@ -17028,34 +17028,42 @@ template {
     color: #e4b236;
     font-weight: 800; }
 
-.formulario_login {
+.formulario_login, .formulario_resgistrar {
   width: 350px;
   margin: 6rem auto; }
-  .formulario_login fieldset {
+  .formulario_login fieldset, .formulario_resgistrar fieldset {
     display: flex;
     flex-direction: column;
-    gap: 2rem; }
-    .formulario_login fieldset h5, .formulario_login fieldset .h5 {
+    gap: 1rem; }
+    .formulario_login fieldset h5, .formulario_login fieldset .h5, .formulario_resgistrar fieldset h5, .formulario_resgistrar fieldset .h5 {
       text-align: center;
       font-weight: 700;
       color: #3d2821; }
-    .formulario_login fieldset div {
+    .formulario_login fieldset div, .formulario_resgistrar fieldset div {
       display: flex;
       flex-direction: column;
       background-color: white;
       padding: 10px 5px; }
-      .formulario_login fieldset div label {
+      .formulario_login fieldset div label, .formulario_resgistrar fieldset div label {
         color: #3d2821; }
-      .formulario_login fieldset div input {
+      .formulario_login fieldset div input, .formulario_resgistrar fieldset div input {
         border: none;
         padding: 5px; }
-        .formulario_login fieldset div input:focus {
+        .formulario_login fieldset div input:focus, .formulario_resgistrar fieldset div input:focus {
           outline: none; }
-    .formulario_login fieldset p {
+    .formulario_login fieldset p, .formulario_resgistrar fieldset p {
       text-align: right; }
-      .formulario_login fieldset p a {
+      .formulario_login fieldset p a, .formulario_resgistrar fieldset p a {
         color: #3d2821;
         font-size: 18px; }
+
+.formulario_login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .formulario_login > a {
+    width: 95%;
+    margin: auto; }
 
 .barra_navegacion {
   margin: 1rem 0; }
