@@ -17292,6 +17292,29 @@ footer {
       grid-row: 1;
       grid-column: 3;
       grid-column: span 3; } }
+.producto {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; }
+  .producto .imagen {
+    margin: auto 0; }
+    .producto .imagen img {
+      margin: auto;
+      width: 100%;
+      min-width: 254px;
+      height: 192px; }
+  .producto .datos {
+    font-size: 18px; }
+
+@media (max-width: 600px) {
+  .producto {
+    flex-direction: column; }
+    .producto .imagen {
+      order: 1; }
+      .producto .imagen img {
+        height: 100%; }
+    .producto .datos {
+      order: 2; } }
 body {
   background-color: #f2e9e6; }
 

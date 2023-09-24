@@ -1,0 +1,32 @@
+.producto{
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    .imagen{
+        margin: auto 0;
+        img{
+            margin: auto;
+            width: 100%;
+            min-width: 254px;
+            height: 192px;
+        }
+    }
+    .datos{
+        font-size: 18px;
+    }
+}
+@media (max-width:600px) {
+    .producto{
+        flex-direction: column;
+        .imagen{
+            order: 1;
+            img{
+                height: 100%;
+            }
+        }
+        .datos{
+            order: 2;
+        }
+    }
+}
