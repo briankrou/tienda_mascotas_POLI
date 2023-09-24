@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Producto</title>
+    <link style="position: absolute;" rel="stylesheet" href="../public/style.css">
+</head>
+
+<nav class="barra_navegacion">
+    <div class="contenedor">
+        <div class="logo_busqueda">
+            <div class="logo">
+              <a href="../index.html"><img src="../src/view/img/logo.png" alt="Logo Pet"></a>
+            </div>
+          
+            <div class="menu">
+              <p></p>
+              <button id="btnMenu" class="btn_menu btn" type="submit">
+                <img src="../src/view/img/menu_icon.png" alt="">
+              </button>
+            </div>
+          
+
+        </div>
+          
+
+        <div id="contenedorMenu" class="contenedor_menu">
+            <ul class="menu">
+                <li><a href="./crearProducto.html">Crear Producto</a></li>
+                <li><a class="activo" href="./editarProducto.html">Editar Producto</a></li>
+                <li><a href="./inventario.html">Inventario</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<body>
+    <section class="contenedor">
+      <form class="formulario_nuevoProducto"  action="">
+
+          <fieldset>
+              <legend>Producto</legend>
+              <div>
+                  <label for="archivoInput">Imagen</label>
+                  <input   type="file" id="archivoInput" placeholder="./img.jpg">
+
+              </div>
+              <div>
+                <label for="">Codigo</label>
+                <input type="text" placeholder="00000">
+              </div>
+              <div>
+                <label for="">Nombre producto</label>
+                <input type="text" placeholder="Producto 1">
+              </div>
+              <div>
+                <label for="">Categoria</label>
+                <select name="" id="">
+                    <option value="Perros">Perros</option>
+                    <option value="">Gatos</option>
+                    <option value="">Peces</option>
+                    <option value="">Roedores</option>
+                    <option value="">Aves</option>
+                </select>
+              </div>
+              <div>
+                <label for="">Precio</label>
+                <input type="text" placeholder="./img.jpg">
+              </div>
+              <div>
+                <label for="">Cantidad</label>
+                <input type="text" placeholder="./img.jpg">
+              </div>
+              <textarea placeholder="Descripcion" name="" id="" cols="30" rows="5"></textarea>
+          </fieldset>
+          <input class="btn btn_1" value="Guardar"  type="submit">
+      </form>
+    </section>
+
+</body>
+<footer>
+    <div class="copy">
+        <p> &copy; Brayan Guevara</p>
+        <p>2023</p>
+    </div>
+</footer>
+<script>// Obtiene el botón y el contenedor por sus ID
+    const btnMenu = document.getElementById("btnMenu");
+    const contenedorMenu = document.getElementById("contenedorMenu");
+    
+    // Agrega un evento de clic al botón para alternar la visibilidad del contenedor
+    btnMenu.addEventListener("click", function () {
+ 
+      if (contenedorMenu.style.display === "block") {
+        contenedorMenu.style.display = "none"; // Oculta el contenedor
+      } else {
+        contenedorMenu.style.display = "block"; // Muestra el contenedor
+      }
+
+      console.log("holaaa");
+    });</script>
+</html>
