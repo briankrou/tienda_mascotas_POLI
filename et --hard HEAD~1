@@ -1,0 +1,138 @@
+[33mcommit 057b1188aee871d33106458c545e3ca6e2300aed[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 19:29:57 2023 -0500
+
+    se coorige para que solo aparescan unos productos deacuerdo al tamaño de pantalla
+
+[33mcommit 0b90b2f2f3743d6507c42afbb249cedf88b31e53[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 19:14:02 2023 -0500
+
+    se crea la tabla de inventario estructura y estilo
+
+[33mcommit d594bee778e05acfe1727c975561f3b414c88ebe[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 18:16:06 2023 -0500
+
+    se crea la pagina de inventario y se habilita el codigo sass para el formulario en elements
+
+[33mcommit ad257009a87f1b1d7af4e16ac8c206171a3d2718[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 18:11:50 2023 -0500
+
+    se cambia los enlaces
+
+[33mcommit ef2c9a580731cfed9ae41d7a303df3448dab749f[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 18:10:31 2023 -0500
+
+    se crea la pagina de editar producto estructura y estilo
+
+[33mcommit efd9fa7f0c369d4643e7fa62d5888be9c03548c7[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 18:03:33 2023 -0500
+
+    se crea la pagina  de crear producto estructura y estilo
+
+[33mcommit bdab120b3fa85ef578ab7990447dff4e02dfe952[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 17:08:47 2023 -0500
+
+    se agrega estructura y estilo de producto.html
+
+[33mcommit 8097697478579930592331fca019d759a857531b[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 17:06:51 2023 -0500
+
+    se agregan algunas imagenes de productos
+
+[33mcommit 71e7c60072653a5af885883faa18c056faf42841[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 16:08:12 2023 -0500
+
+    estilo de formulario nuevo usuario
+
+[33mcommit 33ca122dae9cb8f95c3781980145bb0f13534528[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 15:45:47 2023 -0500
+
+    estilo de formulario login
+
+[33mcommit eb345c2dc21347f175c02657dfb859ccc2808bf4[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 15:19:44 2023 -0500
+
+    correccion de enlaces del menu
+
+[33mcommit 54f00d89ddc6d58df2ee605812e9882be912d78c[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 14:44:35 2023 -0500
+
+    estructura de categorias
+
+[33mcommit 206c6cef305a02ab964c4373c6473c3319f59071[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 14:13:29 2023 -0500
+
+    estructura del formulario HTML
+
+[33mcommit 50ce963a3ea72938f60a5a1a537d8c0c04f2fe4a[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 14:11:41 2023 -0500
+
+    correccion de enlaces
+
+[33mcommit 2cea635de17fbc30aadbcfb1ded2b7fbbcf583c3[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 14:00:02 2023 -0500
+
+    correccion de enlace inicio en login y se agrega nuevoUsuario.html
+
+[33mcommit 35ddd8616d73c8afcdb487d7bb5449c5e8f66b3a[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 13:57:05 2023 -0500
+
+    estuructura de login y correccion de rutas index.html
+
+[33mcommit 36c8283087ce61452745c0b5bc511d2895382e52[m
+Merge: 446aa13 1c68137
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 13:10:45 2023 -0500
+
+    Merge branch 'master' of https://github.com/briankrou/tienda_mascotas_POLI
+
+[33mcommit 446aa13a9431eab947c05c819ee22d5e9abfb53a[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 13:06:49 2023 -0500
+
+    coreccion de rutas
+
+[33mcommit 1c681378d149b8c0076fbdbb39fa6d338a524bca[m
+Author: Brayan Guevara <44601008+briankrou@users.noreply.github.com>
+Date:   Sun Sep 24 13:02:31 2023 -0500
+
+    Delete CNAME
+
+[33mcommit 03a534cbc003c77927e42de28355806e5a7db896[m
+Author: Brayan Guevara <44601008+briankrou@users.noreply.github.com>
+Date:   Sun Sep 24 13:02:01 2023 -0500
+
+    Update CNAME
+
+[33mcommit 34f97fa8f0a4e739a2b4de0995f4afa85aa8bf11[m
+Author: Brayan Guevara <44601008+briankrou@users.noreply.github.com>
+Date:   Sun Sep 24 13:01:45 2023 -0500
+
+    Update CNAME
+
+[33mcommit fff61d2b5c5feade5155d642adbd52a82eab7b37[m
+Author: Brayan Guevara <44601008+briankrou@users.noreply.github.com>
+Date:   Sun Sep 24 13:00:55 2023 -0500
+
+    Create CNAME
+
+[33mcommit 1a30c4759fbf6a126d214ce2c90ee586a6ae0e45[m
+Author: brianKrou <bguevaravan@gmail.com>
+Date:   Sun Sep 24 12:58:26 2023 -0500
+
+    PRIMER COMMIT
