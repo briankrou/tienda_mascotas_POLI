@@ -1,0 +1,22 @@
+
+.tabal_inventario{
+
+    margin: 0 auto 40% auto ;
+    width: 671px;
+    color:#402607;
+    table{
+        width: 100%;
+ 
+        thead{
+            td{
+                font-weight: 900;
+            }
+        }
+        tbody tr:hover{
+            background-color: #f39200;
+            cursor: pointer;
+            padding: 5px;
+        }
+    }
+    
+}

@@ -17107,6 +17107,19 @@ template {
     width: 95%;
     margin: auto; }
 
+.tabal_inventario {
+  margin: 0 auto 40% auto;
+  width: 671px;
+  color: #402607; }
+  .tabal_inventario table {
+    width: 100%; }
+    .tabal_inventario table thead td {
+      font-weight: 900; }
+    .tabal_inventario table tbody tr:hover {
+      background-color: #f39200;
+      cursor: pointer;
+      padding: 5px; }
+
 .barra_navegacion {
   margin: 1rem 0; }
   .barra_navegacion .contenedor_menu {
