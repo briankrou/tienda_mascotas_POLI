@@ -27,15 +27,22 @@
 @media (min-width:700px) {
     .categoria_productos{
         grid-template-columns: repeat(3, 1fr);
+        
     }
 }
 @media (min-width:800px) {
     .categoria_productos{
         grid-template-columns: repeat(4, 1fr);
+        .card:nth-child(n+5) {
+            display: none;
+          }
     }
 }
 @media (min-width:1200px) {
     .categoria_productos{
         grid-template-columns: repeat(6, 1fr);
+        .card:nth-child(n+5) {
+            display: initial;
+          }
     }
 }
