@@ -1,7 +1,23 @@
+.btn_1,.btn_2,.btn_3{
+    border: none;
+    border-radius:5px ;
+    margin: 5px;
+    padding: 8px;
+    max-width: auto;
+    list-style: none;
+    text-decoration: none;
+    line-height: 1;
+
+}
 .btn_1{
+ 
         background-color: #F39200;
         color: #3D2821;
         font-weight: 600;
+        &hover{
+            background-color: #F39200;
+        }
+
 }
 .btn_2{
     background-color: #412E10;
