@@ -2,7 +2,7 @@
 .tabal_inventario{
 
     margin: 0 auto 40% auto ;
-    width: 671px;
+    max-width: 671px;
     color:#402607;
     table{
         width: 100%;
@@ -10,12 +10,36 @@
         thead{
             td{
                 font-weight: 900;
+
             }
         }
-        tbody tr:hover{
+        tr{
+  
+            margin: 15px;
+            & #btn_editar{
+            }
+        }
+        @media (max-width:700px) {
+                
+                tr{
+                   td{
+                    
+                   }
+                    .img{
+                        display: none;
+                    }
+                }
+                
+        }
+        tbody{
+        tr{
+            margin: 5px;
+        }
+         tr:hover{
             background-color: #f39200;
             cursor: pointer;
             padding: 5px;
+         }
         }
     }
     

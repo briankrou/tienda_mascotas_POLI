@@ -16984,11 +16984,11 @@ template {
   border: none;
   border-radius: 5px;
   margin: 5px;
-  padding: 8px;
+  padding: 1px 5px;
   max-width: auto;
   list-style: none;
   text-decoration: none;
-  line-height: 1;
+  line-height: 2;
   text-align: center; }
 
 .btn_1 {
@@ -17122,12 +17122,19 @@ template {
 
 .tabal_inventario {
   margin: 0 auto 40% auto;
-  width: 671px;
+  max-width: 671px;
   color: #402607; }
   .tabal_inventario table {
     width: 100%; }
     .tabal_inventario table thead td {
       font-weight: 900; }
+    .tabal_inventario table tr {
+      margin: 15px; }
+    @media (max-width: 700px) {
+      .tabal_inventario table tr .img {
+        display: none; } }
+    .tabal_inventario table tbody tr {
+      margin: 5px; }
     .tabal_inventario table tbody tr:hover {
       background-color: #f39200;
       cursor: pointer;
