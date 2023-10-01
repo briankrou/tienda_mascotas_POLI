@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Producto</title>
+    <link style="position: absolute;" rel="stylesheet" href="../public/style.css">
+    
+</head>
+
+<nav class="barra_navegacion">
+    <div class="contenedor">
+        <div class="logo_busqueda">
+            <div class="logo">
+              <a href="../index.html"><img src="../src/view/img/logo.png" alt="Logo Pet"></a>
+            </div>
+          
+            <div class="menu">
+              <p></p>
+              <button id="btnMenu" class="btn_menu btn" type="submit">
+                <img src="../src/view/img/menu_icon.png" alt="">
+              </button>
+            </div>
+          
+
+        </div>
+          
+
+        <div id="contenedorMenu" class="contenedor_menu">
+            <ul class="menu">
+                <li><a href="./crearProducto.html">Crear Producto</a></li>
+                <li><a href="./editarProducto.html">Editar Producto</a></li>
+                <li><a class="activo" href="./">Inventario</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<body>
+  <div class="container mt-5">
+    <h5 class="mb-4">Productos en Inventario</h5>
+    <div class="table-responsive tabal_inventario">
+      <table class="table table-bordered">
+        <thead class="thead-light">
+          <tr>
+            <th>Imagen</th>
+            <th>Código</th>
+            <th>Categoría</th>
+            <th>Nombre del Producto</th>
+            <th>Cantidad</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Imagen</td>
+            <td>Código</td>
+            <td>Categoría</td>
+            <td>Nombre del Producto</td>
+            <td>Cantidad</td>
+            <td><a href="./editarProducto.html" class="btn_1">Editar</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>

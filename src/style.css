@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -17120,7 +17121,12 @@ template {
     width: 95%;
     margin: auto; }
 
+th, td {
+  text-align: center; }
+
 .tabal_inventario {
+  /* Estilos para pantallas más pequeñas (menos de 750px) */
+  /*sssss*/
   margin: 0 auto 40% auto;
   max-width: 671px;
   color: #402607; }
@@ -17136,9 +17142,7 @@ template {
     .tabal_inventario table tbody tr {
       margin: 5px; }
     .tabal_inventario table tbody tr:hover {
-      background-color: #f39200;
-      cursor: pointer;
-      padding: 5px; }
+      cursor: pointer; }
 
 .barra_navegacion {
   margin: 1rem 0; }

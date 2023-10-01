@@ -1,5 +1,17 @@
 
+
+th, td {
+    text-align: center;
+  }
+
 .tabal_inventario{
+/* Estilos para pantallas más pequeñas (menos de 750px) */
+@media (max-width: 750px) {
+
+}
+
+/*sssss*/
+
 
     margin: 0 auto 40% auto ;
     max-width: 671px;
@@ -36,9 +48,9 @@
             margin: 5px;
         }
          tr:hover{
-            background-color: #f39200;
+
             cursor: pointer;
-            padding: 5px;
+ 
          }
         }
     }
