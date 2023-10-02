@@ -6,15 +6,23 @@
     <title>PET</title>
     <link rel="stylesheet" href="../src/style.css">
 </head>
-<header class="hero" style="background-image:url(../src/assets/img/Hero.png) ;">
+
+
+<body>
+  <style>
+  .campo-error {
+      border: 2px solid red;
+      /* Cambia el color del borde a rojo para resaltar los campos con error */
+  }
+
+  </style>
+  <header class="hero" style="background-image:url(../src/assets/img/Hero.png) ;">
     <div class="anuncio">
       <h1>Encuentra todo lo necesario</h1>
         <h3>Lo que tus mascotas quieren </h3>
         <a  href="#" class="btn_2 ver-productos">Ver Productos</a>
     </div>
 </header>
-
-<body>
   <nav class="barra_navegacion">
     <div class="contenedor">
         <div class="logo_busqueda">
@@ -52,66 +60,15 @@
         </div>
     </div>
   </nav>
+  <main>
     <section class="categoria">
         <article class="contenedor categoria_titulo">
             <div><h2>Perros</h2></div>
             <div><a href="../src/pages/perros.html">Ver todo <i>-></i></a></div>
         </article>
-        <div class="categoria_productos contenedor">
-            <div class="card"">
-              <img src="../src/assets/img/p_01.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Producto XYoducto XYoducto</h5>
-                  <p class="card-text" >Ref: <span class="codigo">255226</span></p>
-                  <p class="card-text">$ 5550</p>
-                  <a href="../src/pages/producto.html" class="btn">Ver producto</a>
-                </div>
-            </div>
-            <div class="card"">
-              <img src="../src/assets/img/p_01.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Producto XYoducto XYoducto</h5>
-                  <p class="card-text" >Ref: <span class="codigo">255226</span></p>
-                  <p class="card-text">$ 5550</p>
-                  <a href="../src/pages/producto.html" class="btn">Ver producto</a>
-                </div>
-            </div>
-            <div class="card"">
-              <img src="../src/assets/img/p_01.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Producto XYoducto XYoducto</h5>
-                  <p class="card-text" >Ref: <span class="codigo">255226</span></p>
-                  <p class="card-text">$ 5550</p>
-                  <a href="../src/pages/producto.html" class="btn">Ver producto</a>
-                </div>
-            </div>
-            <div class="card"">
-              <img src="../src/assets/img/p_01.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Producto XYoducto XYoducto</h5>
-                  <p class="card-text" >Ref: <span class="codigo">255226</span></p>
-                  <p class="card-text">$ 5550</p>
-                  <a href="../src/pages/producto.html" class="btn">Ver producto</a>
-                </div>
-            </div>
-            <div class="card"">
-              <img src="../src/assets/img/p_01.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Producto XYoducto XYoducto</h5>
-                  <p class="card-text" >Ref: <span class="codigo">255226</span></p>
-                  <p class="card-text">$ 5550</p>
-                  <a href="../src/pages/producto.html" class="btn">Ver producto</a>
-                </div>
-            </div>
-            <div class="card"">
-              <img src="../src/assets/img/p_01.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Producto XYoducto XYoducto</h5>
-                  <p class="card-text" >Ref: <span class="codigo">255226</span></p>
-                  <p class="card-text">$ 5550</p>
-                  <a href="../src/pages/producto.html" class="btn">Ver producto</a>
-                </div>
-            </div>            
+        <div class="categoria_productos contenedor" id="productos-container">
+              <!-- Los productos se agregarán aquí dinámicamente -->
+        </div>            
 
 
         </div>    
@@ -373,7 +330,7 @@
     </div>    
 </section>
 
-</body>
+</main>
 <footer>
     <div class="contenedor">
         <div class="logo"><img src="../src/assets/img/logo.png" alt="logo"></div>
@@ -397,31 +354,36 @@
             </ul>
         </div>
         <div class="form_contacto">
-            <form action="">
-                <figcaption>
-                    <fieldset>Hable con nosotros</fieldset>
-                    <div class="nombre">
-                        <label for="nombre">Nombre</label>
-                        <input id="nombre" type="text">
-                    </div>
-                    <div class="correo">
-                        <label for="correo">Correo electronico</label>
-                        <input  id="correo"  type="text">
-                    </div>
-                    <div class="mensaje">
-                        <textarea id="mensaje"  placeholder="Escribe tu mensaje" name="mensaje" id="" cols="30" rows="5"></textarea>
-                    </div>
-                    <div class="boton">
-                        <button class="btn_1">Enviar mensaje</button>
-                    </div>
-                </figcaption>
-            </form>
-        </div>
+          <form id="formularioContacto">
+              <fieldset>
+                  <legend>Hable con nosotros</legend>
+                  <div class="campo">
+                      <label for="nombre">Nombre</label>
+                      <input id="nombre" type="text" name="nombre" required> <!-- Agrega el atributo required para hacer el campo obligatorio -->
+                  </div>
+                  <div class="campo">
+                      <label for="correo">Correo electrónico</label>
+                      <input id="correo" type="email" name="correo" required> <!-- Agrega el atributo type="email" para validar el formato del correo y required para hacer el campo obligatorio -->
+                  </div>
+                  <div class="campo">
+                      <label for="mensaje">Mensaje</label>
+                      <textarea id="mensaje" placeholder="Escribe tu mensaje" name="mensaje" cols="30" rows="5" required></textarea> <!-- Agrega el atributo required para hacer el campo obligatorio -->
+                  </div>
+                  <div class="boton">
+                      <button id="btn_contactar" class="btn_1" type="submit">Enviar mensaje</button>
+                  </div>
+              </fieldset>
+          </form>
+      </div>
+      
     </div>
     <div class="copy">
         <p> &copy; Brayan Guevara</p>
         <p>2023</p>
     </div>
 </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../src/index.js" s type="module"></script>
 
 </html>
