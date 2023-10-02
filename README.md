@@ -1,1 +1,3 @@
-[Visita la página principal](./src/index.html)
+[Visita la página principal](./public/index.html)
+
+[Visita administrador](./src/pages/inventario.html)
