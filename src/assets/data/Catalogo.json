@@ -1,0 +1,42 @@
+[
+
+    
+        
+            { 
+                "Categoria":"Perros",
+                "nombre": "Caga de jugos1",
+                "referencia": "12545",
+                "precio": "125000",
+                "imagenURL": "../src/assets/img/img01.jpg",
+                "cantidad": 2233
+            },
+            {
+                "Categoria":"Gatos",
+                "nombre": "Caga de jugos2",
+                "referencia": "12545",
+                "precio": "125000",
+                "imagenURL": "../src/assets/img/img01.jpg",
+                "cantidad": 2233
+            },
+            {
+                "Categoria":"Perros",
+                "nombre": "Caga de jugos3",
+                "referencia": "12545",
+                "precio": "125000",
+                "imagenURL": "../src/assets/img/img01.jpg",
+                "cantidad": 2233
+            },
+        
+            {
+                "Categoria":"Gatos",
+                "nombre": "Caga de jugos",
+                "referencia": "12545",
+                "precio": "125000",
+                "imagenURL": "../src/assets/img/img01.jpg",
+                "cantidad": 2233
+            }
+        
+        
+                
+]
+    

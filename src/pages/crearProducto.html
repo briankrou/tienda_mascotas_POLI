@@ -36,7 +36,7 @@
 </nav>
 <body>
     <section class="contenedor">
-      <form class="formulario_nuevoProducto"  action="">
+      <form  method="POST" enctype="multipart/form-data"class="formulario_nuevoProducto"  action="">
 
           <fieldset>
               <legend>Producto</legend>
@@ -47,37 +47,43 @@
               </div>
               <div>
                 <label for="">Codigo</label>
-                <input type="text" placeholder="00000">
+                <input type="text" id="codigo" placeholder="00000">
               </div>
               <div>
                 <label for="">Nombre producto</label>
-                <input type="text" placeholder="Producto 1">
+                <input type="text" name="nombre" placeholder="Producto 1">
               </div>
               <div>
                 <label for="">Categoria</label>
-                <select name="" id="">
+                <select name="categoria" id="categoria">
                     <option value="Perros">Perros</option>
-                    <option value="">Gatos</option>
-                    <option value="">Peces</option>
-                    <option value="">Roedores</option>
-                    <option value="">Aves</option>
+                    <option value="Gatos">Gatos</option>
+                    <option value="Peces">Peces</option>
+                    <option value="Roedores">Roedores</option>
+                    <option value="Aves">Aves</option>
                 </select>
               </div>
               <div>
                 <label for="">Precio</label>
-                <input type="text" placeholder="./img.jpg">
+                <input type="text" id="precio" placeholder="./img.jpg">
               </div>
               <div>
                 <label for="">Cantidad</label>
-                <input type="text" placeholder="./img.jpg">
+                <input type="text"  id="cantidad" placeholder="./img.jpg">
               </div>
-              <textarea placeholder="Descripcion" name="" id="" cols="30" rows="5"></textarea>
+              <textarea placeholder="Descripcion" name="descripcion" id="" cols="30" rows="5"></textarea>
           </fieldset>
-          <input class=" btn_1" value="Registrar"  type="submit">
+          <center>
+       
+            <input  onclick="crearProducto(event)" class=" btn_1" value="Registrar"  type="submit">
+          </center>
+
       </form>
     </section>
 
 </body>
+  <script src="../assets/scripts/crearProducto.js"></script>
+
 <footer>
     <div class="copy">
         <p> &copy; Brayan Guevara</p>

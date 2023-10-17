@@ -1,0 +1,9 @@
+
+   [ {
+      "nombre": "Producto 2",
+      "referencia": "789012",
+      "precio": 150,
+      "imagenURL": "../src/assets/img/img02.jpg",
+      "paginaURL": "../src/pages/producto.html"
+    }
+   ]
