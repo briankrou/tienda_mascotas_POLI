@@ -11,7 +11,7 @@
     if(contenerdorPerros!=null){ mostrarCategoria("Perros",contenerdorPerros)};
     if(contenerdorGatos!=null){mostrarCategoria("Gatos",contenerdorGatos) };
     if(contenerdorPeces!=null){ mostrarCategoria("Peces",contenerdorPeces)};
-    if(contenerdorRoedores!=null){mostrarCategoria("Roedores",contcontenerdorRoedoresenerdorPerros) };
+    if(contenerdorRoedores!=null){mostrarCategoria("Roedores",contenerdorRoedores) };
     if(contenerdorAves!=null){ mostrarCategoria("Aves",contenerdorAves)};
     
     
